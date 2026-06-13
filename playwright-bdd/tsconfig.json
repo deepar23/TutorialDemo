@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "types": ["node", "@playwright/test"]
+  },
+
+  "include": [
+    "pages/**/*.ts",
+    "step-definitions/**/*.ts",
+    "support/**/*.ts"
+  ]
+}

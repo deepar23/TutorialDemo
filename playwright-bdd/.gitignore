@@ -1,0 +1,59 @@
+# Node modules
+node_modules/
+
+# Playwright reports
+playwright-report/
+
+# Test results
+test-results/
+
+# Screenshots
+screenshots/
+
+# Videos
+videos/
+
+# Traces
+test-results/**/*.zip
+trace.zip
+
+# Allure reports (if used)
+allure-results/
+allure-report/
+
+# Coverage reports
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+
+# Mac OS
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
+
+# Generated cucumber reports
+cucumber-report.html
+cucumber-report.json
+
+# Playwright storage state (optional)
+playwright/.auth/
